@@ -31,5 +31,5 @@ xl - 1399.98px
 .justify-content-{start, end, center, between, around, evenly}
 .align-items-{start, end, center, baseline, stretch}
 .align-content-{start, end, center, between, around, stretch}
-.nowrap
+.nowrap, d-none, [hidden]
 ```
