@@ -1,6 +1,6 @@
 # WordPress Starter Theme
 
-Copy "starter" folder to "wp-content/themes" and activate Starter theme.
+Copy the `starter` folder to `/wp-content/themes/` and activate in WordPress admin.
 
 ## Helpers
 
