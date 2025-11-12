@@ -1078,4 +1078,3 @@ var Lenis = class {
 export {
   Lenis as default
 };
-//# sourceMappingURL=lenis.mjs.map
