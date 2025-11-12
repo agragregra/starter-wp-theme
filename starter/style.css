@@ -3,4 +3,8 @@ Theme Name: Starter
 Version: 1.0
 */
 
-
+body {
+  position: relative;
+  overflow-x: hidden;
+  min-width: 320px;
+}
