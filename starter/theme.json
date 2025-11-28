@@ -4,6 +4,15 @@
     "appearanceTools": true,
     "layout": {
       "contentSize": "1120px"
+    },
+    "shadow": {
+      "presets": [
+        {
+          "name": "My Shadow 1",
+          "slug": "my-shadow-1",
+          "shadow": "0 0 20px rgba(0, 0, 0, .25)"
+        }
+      ]
     }
   }
 }
