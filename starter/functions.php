@@ -21,3 +21,12 @@ function starter_theme_scripts() {
   wp_enqueue_script_module('starter-scripts');
 }
 add_action('wp_enqueue_scripts', 'starter_theme_scripts');
+
+add_action('init', function() {
+  $fields = [
+    'price',
+  ];
+  foreach ($fields as $field) {
+    register_meta('post', $field, ['show_in_rest' => true, 'single' => true, 'type' => 'string']);
+  }
+});
