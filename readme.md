@@ -32,5 +32,7 @@ xl - 1399.98px
 .align-items-{start, end, center, baseline, stretch}
 .align-content-{start, end, center, between, around, stretch}
 .nowrap, d-none, [hidden]
+.g-10, .g-20, .g-30
+.overflow-hidden
 .h-100
 ```
