@@ -2,37 +2,65 @@
 
 Copy the `starter` folder to `/wp-content/themes/` and activate in WordPress admin.
 
-## Helpers
+## Breakpoints
 
-### breakpoints (min-width) media.css:
 ```
-xs  - 0
-sm  - 600px
-md  - 782px
-lg  - 992px
-xl  - 1200px
-xxl - 1400px
-```
+/* === DESKTOP FIRST === */
 
-### breakpoints (max-width) media.css:
-```
-xs - 599.98px
-sm - 781.98px
-md - 991.98px
-lg - 1199.98px
-xl - 1399.98px
-```
+/* xl <= Extra extra large (xxl) */
+@media (max-width: 1399.98px) {
 
-### utils.css classes:
-```
-.order-{breakpoint}-{first, 0–5, last}
-.d-{breakpoint}-{inline, inline-block, block, grid, inline-grid, flex, inline-flex, none}
-.flex-{fill, row, column, row-reverse, column-reverse, wrap, nowrap, flex-wrap-reverse}
-.justify-content-{start, end, center, between, around, evenly}
-.align-items-{start, end, center, baseline, stretch}
-.align-content-{start, end, center, between, around, stretch}
-.nowrap, d-none, [hidden]
-.g-10, .g-20, .g-30
-.overflow-hidden
-.h-100
+}
+
+/* lg <= Extra large (xl) */
+@media (max-width: 1199.98px) {
+
+}
+
+/* md <= Large (lg) */
+@media (max-width: 991.98px) {
+
+}
+
+/* sm <= Medium (md) */
+@media (max-width: 781.98px) {
+
+}
+
+/* xs <= Small (sm) */
+@media (max-width: 599.98px) {
+
+}
+
+/* === MOBILE FIRST === */
+
+/* Custom (xs) */
+@media (min-width: 0) {
+
+}
+
+/* Small (sm) */
+@media (min-width: 600px) {
+
+}
+
+/* Medium (md) */
+@media (min-width: 782px) {
+
+}
+
+/* Large (lg) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large (xl) */
+@media (min-width: 1200px) {
+
+}
+
+/* Extra extra large (xxl) */
+@media (min-width: 1400px) {
+
+}
 ```
