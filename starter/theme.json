@@ -4,6 +4,7 @@
     "appearanceTools": true,
     "layout": {
       "contentSize": "1120px"
-    }
+    },
+	"useRootPaddingAwareAlignments": true
   }
 }
