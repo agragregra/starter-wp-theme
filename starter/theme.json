@@ -5,6 +5,6 @@
     "layout": {
       "contentSize": "1120px"
     },
-	"useRootPaddingAwareAlignments": true
+    "useRootPaddingAwareAlignments": true
   }
 }
